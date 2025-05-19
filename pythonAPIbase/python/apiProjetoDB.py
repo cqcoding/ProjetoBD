@@ -31,6 +31,7 @@ StatusCodes = {
 def db_connection():
     db = psycopg2.connect(
     host="127.0.0.1",
+    port='5432',
     database=os.getenv("DB_NAME"),
     user=os.getenv("DB_USER"),
     password=os.getenv("DB_PASSWORD")
@@ -159,7 +160,6 @@ def register_student():
         cur.execute(statement1, values1)
         
         resultUserId = cur.fetchone()[0]
-        # commit the transaction
         conn.commit()
 
         statement2 = 'INSERT INTO student (balance, utilizador_userid) VALUES (%s,%s)'
@@ -173,7 +173,6 @@ def register_student():
         logger.error(f'POST /dbproj/register/student - error: {error}')
         response = {'status': StatusCodes['internal_error'], 'errors': str(error)}
 
-        # an error occurred, rollback
         conn.rollback()
 
     finally:
@@ -181,7 +180,7 @@ def register_student():
             conn.close()
     return flask.jsonify(response)
 
-@app.route('/dbproj/register/staff', methods=['POST'])
+@app.route('/dbproj/register/staff', methods=['POST'])  ###Comentario:Precisamos criar!!!
 @token_required
 @token_required_with_role('admin')
 def register_staff():
@@ -198,38 +197,102 @@ def register_staff():
     response = {'status': StatusCodes['success'], 'errors': None, 'results': resultUserId}
     return flask.jsonify(response)
 
-@app.route('/dbproj/register/instructor', methods=['POST'])
+@app.route('/dbproj/register/instructor', methods=['POST']) ###Comentario:associar instrutor a um curso
 @token_required
 @token_required_with_role('admin')
 def register_instructor():
+    conn = db_connection()
+    cur = conn.cursor()
+
     data = flask.request.get_json()
-    username = data.get('username')
-    email = data.get('email')
+
+    type = data.get('type')
+    email = data.get('mail')
     password = data.get('password')
+    name= data.get('name')
+    age = data.get('age')
+    phone_number= data.get('phone_number')
+    username = data.get('username')
 
-    if not username or not email or not password:
-        return flask.jsonify({'status': StatusCodes['api_error'], 'errors': 'Username, email, and password are required', 'results': None})
-    
-    resultUserId = random.randint(1, 200) # TODO
+    if type not in ['staff', 'coordinator']:
+        return flask.jsonify({'status': StatusCodes['api_error'], 'errors': 'Invalid instructor type. Must be "staff" or "coordinator".', 'results': None})
 
-    response = {'status': StatusCodes['success'], 'errors': None, 'results': resultUserId}
+    if not type or not email or not password or not name or not age or not phone_number or not username:
+        return flask.jsonify({'status': StatusCodes['api_error'], 'errors': 'Balance, mail, password, name, age, phone number and username are required', 'results': None})
+
+    statement1 = 'INSERT INTO utilizador (mail, password, name,age,phone_number,username) VALUES (%s, %s, %s, %s, %s,%s) returning userid'
+    values1 = (email, password,name,age,phone_number, username)
+
+    try:
+        cur.execute(statement1, values1)
+        
+        resultUserId = cur.fetchone()[0]
+        # commit the transaction
+        conn.commit()
+
+        statement2 = 'INSERT INTO instructor (type, utilizador_userid) VALUES (%s,%s)'
+        values2 = (type, resultUserId)
+
+        cur.execute(statement2, values2)
+        conn.commit()
+        response = {'status': StatusCodes['success'], 'errors': None, 'results': resultUserId}
+
+    except (Exception, psycopg2.DatabaseError) as error:
+        logger.error(f'POST /dbproj/register/instructor - error: {error}')
+        response = {'status': StatusCodes['internal_error'], 'errors': str(error)}
+
+        # an error occurred, rollback
+        conn.rollback()
+
+    finally:
+        if conn is not None:
+            conn.close()
     return flask.jsonify(response)
 
 @app.route('/dbproj/enroll_degree/<degree_id>', methods=['POST'])
-@token_required
+@token_required_with_role('staff')  # Apenas staff pode usar
 def enroll_degree(degree_id):
     data = flask.request.get_json()
+    conn = db_connection()
+    cur = conn.cursor()
+
     student_id = data.get('student_id')
     date = data.get('date')
 
     if not student_id or not date:
         return flask.jsonify({'status': StatusCodes['api_error'], 'errors': 'Student ID and date are required', 'results': None})
+
+    try:
+        # Inserir na tabela enrollment
+        cur.execute("""
+            INSERT INTO enrollment (status, type, data, version_version_id, student_utilizador_userid)
+            VALUES (%s, %s, %s, %s, %s)
+            RETURNING enrollment_id
+        """, (True, 'regular', date, 1, student_id))  
+        enrollment_id = cur.fetchone()[0]
+
+        # Inserir na tabela enrollment_degree
+        cur.execute("""
+            INSERT INTO enrollment_degree (enrollment_enrollment_id, degree_program_degree_id)
+            VALUES (%s, %s)
+        """, (enrollment_id, degree_id))
+
+        conn.commit()
+        
+        response = {'status': StatusCodes['success'], 'errors': None, 'results': {'enrollment_id': enrollment_id}}
+        return flask.jsonify(response)
     
-    response = {'status': StatusCodes['success'], 'errors': None}
-    return flask.jsonify(response)
+    except Exception as e:
+        conn.rollback()
+        return flask.jsonify({'status': StatusCodes['internal_error'], 'errors': str(e), 'results': None})
+    finally:
+        cur.close()
+        conn.close()
+
 
 @app.route('/dbproj/enroll_activity/<activity_id>', methods=['POST'])
-@token_required
+@token_required_with_role('student')   #so aluno pode usar
+###Comentario:verificar a qtd de alunos antes de matricular
 def enroll_activity(activity_id):
     response = {'status': StatusCodes['success'], 'errors': None}
     return flask.jsonify(response)
@@ -247,7 +310,7 @@ def enroll_course_edition(course_edition_id):
     return flask.jsonify(response)
 
 @app.route('/dbproj/submit_grades/<course_edition_id>', methods=['POST'])
-@token_required
+@token_required ###Comentario: precisamos de autenticacao do instrutor e se ele esta relacionado àquele curso!!
 def submit_grades(course_edition_id):
     data = flask.request.get_json()
     period = data.get('period')
@@ -260,7 +323,7 @@ def submit_grades(course_edition_id):
     return flask.jsonify(response)
 
 @app.route('/dbproj/student_details/<student_id>', methods=['GET'])
-@token_required
+@token_required ###Comentario: so staff e o aluno autenticado podem ver, resultados mais recentes em cima
 def student_details(student_id):
 
     resultStudentDetails = [ # TODO
@@ -309,7 +372,7 @@ def top3_students():
     resultTop3 = [ # TODO
         {
             'student_name': "John Doe",
-            'average_grade': 15.1,
+            'average_grade': 15.1, ###Comentario: funcao AVG dentro do SQL para as notas
             'grades': [
                 {
                     'course_edition_id': random.randint(1, 200),
@@ -346,7 +409,7 @@ def top_by_district():
         {
             'student_id': random.randint(1, 200),
             'district': "Coimbra",
-            'average_grade': 15.2
+            'average_grade': 15.2  ###Comentario: funcao AVG dentro do SQL para as notas
         },
         {
             'student_id': random.randint(1, 200),
@@ -367,7 +430,7 @@ def monthly_report():
             'month': "month_0",
             'course_edition_id': random.randint(1, 200),
             'course_edition_name': "Some course",
-            'approved': 20,
+            'approved': 20,    ###Comentario: colocar trigger ao submeter notas para criar tabela de aprovados ou não
             'evaluated': 23
         },
         {
@@ -383,20 +446,31 @@ def monthly_report():
     return flask.jsonify(response)
 
 @app.route('/dbproj/delete_details/<student_id>', methods=['DELETE'])
-@token_required
+@token_required_with_role('staff')  # Apenas staff pode usar
 def delete_student(student_id):
+    data = flask.request.get_json()
+    conn = db_connection()
+    cur = conn.cursor()
+
+    student_id = data.get('student_id')
+
+    if not student_id:
+        return flask.jsonify({'status': StatusCodes['api_error'], 'errors': 'Student ID and is required', 'results': None})
+    
+    #try:
+    #    cur.execute("DELETE FROM enrollment WHERE student_utilizador_userid = %s", (student_id,))
+
+    ###Comentario: precisa fazer um grande efeito cascata, poir o aluno vai estar em muitas atividades, cursos, salas de aula etc 
     response = {'status': StatusCodes['success'], 'errors': None}
     return flask.jsonify(response)
 
 if __name__ == '__main__':
-    # set up logging
     logging.basicConfig(filename='log_file.log')
     logger = logging.getLogger('logger')
     logger.setLevel(logging.DEBUG)
     ch = logging.StreamHandler()
     ch.setLevel(logging.DEBUG)
 
-    # create formatter
     formatter = logging.Formatter('%(asctime)s [%(levelname)s]:  %(message)s', '%H:%M:%S')
     ch.setFormatter(formatter)
     logger.addHandler(ch)
