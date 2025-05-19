@@ -1,0 +1,226 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-922-693
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:46] "[32mGET /departments HTTP/1.1[0m" 308 -
+INFO:logger:GET /departments
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:46] "[35m[1mGET /departments/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:46] "GET /departments/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:46] "GET /departments/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:46] "GET /departments/?__debugger__=yes&cmd=resource&f=console.png&s=X7C79TDYaZT9XuMPrkss HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:46] "GET /departments/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:logger:GET /departments
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:55] "[35m[1mGET /departments/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:55] "[36mGET /departments/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:55] "[36mGET /departments/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 18:34:55] "[36mGET /departments/?__debugger__=yes&cmd=resource&f=console.png&s=X7C79TDYaZT9XuMPrkss HTTP/1.1[0m" 304 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 110-922-693
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2025 19:21:54] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8081
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-931-888
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:37:50] "[32mGET /version HTTP/1.1[0m" 308 -
+INFO:logger:GET /version
+DEBUG:logger:GET /version - parse
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:37:50] "GET /version/ HTTP/1.1" 200 -
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:38:03] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:38:23] "[32mGET /version HTTP/1.1[0m" 308 -
+INFO:logger:GET /version
+DEBUG:logger:GET /version - parse
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:38:23] "GET /version/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8081
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-931-888
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:50:32] "[32mGET /version HTTP/1.1[0m" 308 -
+INFO:logger:GET /version
+DEBUG:logger:GET /version - parse
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:50:32] "GET /version/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:50:39] "[32mPOST /version HTTP/1.1[0m" 308 -
+INFO:logger:POST /version
+DEBUG:logger:POST /version - payload: {'coordinator': 'João Silva', 'assistant': 'Maria Santos', 'capacity': 30, 'semester': '2024/1'}
+ERROR:logger:POST /version - error: tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:50:39] "POST /version/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:50:53] "[32mPOST /version HTTP/1.1[0m" 308 -
+INFO:logger:POST /version
+DEBUG:logger:POST /version - payload: {'coordinator': 'João Silva', 'assistant': 'Maria Santos', 'capacity': 30, 'semester': '2024/1'}
+ERROR:logger:POST /version - error: tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:50:53] "POST /version/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:50:59] "[32mGET /version HTTP/1.1[0m" 308 -
+INFO:logger:GET /version
+DEBUG:logger:GET /version - parse
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:50:59] "GET /version/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:51:07] "[32mPOST /version HTTP/1.1[0m" 308 -
+INFO:logger:POST /version
+DEBUG:logger:POST /version - payload: {'coordinator': 'João Silva', 'assistant': 'Maria Santos', 'capacity': 30, 'semester': '2024/1'}
+ERROR:logger:POST /version - error: tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2025 11:51:07] "POST /version/ HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8081
+INFO:logger:API stubs online: http://127.0.0.1:8081
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8081
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-465-415
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 14:45:20] "[32mPOST /version HTTP/1.1[0m" 308 -
+INFO:logger:POST /version
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 14:45:20] "[35m[1mPOST /version/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 14:46:07] "[32mGET /version HTTP/1.1[0m" 308 -
+INFO:logger:GET /version
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 14:46:07] "[35m[1mGET /version/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 14:46:10] "[32mGET /version HTTP/1.1[0m" 308 -
+INFO:logger:GET /version
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 14:46:10] "[35m[1mGET /version/ HTTP/1.1[0m" 500 -
+INFO:logger:API stubs online: http://127.0.0.1:8081
+INFO:logger:API stubs online: http://127.0.0.1:8081
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-465-415
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 15:19:50] "[32mGET /version HTTP/1.1[0m" 308 -
+INFO:logger:GET /version
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 15:19:50] "[35m[1mGET /version/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 15:20:05] "[32mPOST /version HTTP/1.1[0m" 308 -
+INFO:logger:POST /version
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 15:20:05] "[35m[1mPOST /version/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 802-621-054
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 15:27:37] "[32mGET /version HTTP/1.1[0m" 308 -
+INFO:logger:GET /version
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 15:27:37] "[35m[1mGET /version/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 802-621-054
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 802-621-054
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 802-621-054
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 802-621-054
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 802-621-054
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 15:31:46] "[32mGET /version HTTP/1.1[0m" 308 -
+INFO:logger:GET /version
+ERROR:logger:GET /version - error: ERRO:  relação "version" não existe
+LINE 1: ..._id, coordinator, assistant, capacity, semester FROM version
+                                                                ^
+
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 15:31:46] "GET /version/ HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-868-813
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 18:18:29] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 18:43:49] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 18:44:24] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 18:46:05] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2025 19:17:22] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 16:45:32] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 16:47:56] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/Postman/bd-24_25-python-api-base/python/demo-api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 17:11:35] "[33mGET /search HTTP/1.1[0m" 404 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-251-550
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
