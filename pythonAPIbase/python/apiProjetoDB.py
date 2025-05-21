@@ -1,21 +1,3 @@
-##
-## =============================================
-## ============== Bases de Dados ===============
-## ============== LEI  2024/2025 ===============
-## =============================================
-## =================== Demo ====================
-## =============================================
-## =============================================
-## === Department of Informatics Engineering ===
-## =========== University of Coimbra ===========
-## =============================================
-##
-## Authors:
-##   João R. Campos <jrcampos@dei.uc.pt>
-##   Nuno Antunes <nmsa@dei.uc.pt>
-##   University of Coimbra
-
-
 import flask
 import logging
 import psycopg2
@@ -41,101 +23,6 @@ StatusCodes = {
 }
 
 
-##########################################################
-## DEMO ENDPOINTS
-## (the endpoints get_all_departments and add_departments serve only as examples!)
-##########################################################
-
-##
-## Demo GET
-##
-## Obtain all departments in JSON format
-##
-
-@app.route('/departments/', methods=['GET'])
-def get_all_departments():
-    logger.info('GET /departments')
-
-    conn = db_connection()
-    cur = conn.cursor()
-
-    try:
-        cur.execute('SELECT ndep, nome, local FROM dep')
-        rows = cur.fetchall()
-
-        logger.debug('GET /departments - parse')
-        Results = []
-        for row in rows:
-            logger.debug(row)
-            content = {'ndep': int(row[0]), 'nome': row[1], 'localidade': row[2]}
-            Results.append(content)  # appending to the payload to be returned
-
-        response = {'status': StatusCodes['success'], 'results': Results}
-
-    except (Exception, psycopg2.DatabaseError) as error:
-        logger.error(f'GET /departments - error: {error}')
-        response = {'status': StatusCodes['internal_error'], 'errors': str(error)}
-
-    finally:
-        if conn is not None:
-            conn.close()
-
-    return flask.jsonify(response)
-
-##
-## Demo POST
-##
-## Add a new department in a JSON payload
-##
-
-@app.route('/departments/', methods=['POST'])
-def add_departments():
-    logger.info('POST /departments')
-    payload = flask.request.get_json()
-
-    conn = db_connection()
-    cur = conn.cursor()
-
-    logger.debug(f'POST /departments - payload: {payload}')
-
-    # do not forget to validate every argument, e.g.,:
-    if 'ndep' not in payload:
-        response = {'status': StatusCodes['api_error'], 'results': 'ndep value not in payload'}
-        return flask.jsonify(response)
-
-    # parameterized queries, good for security and performance
-    statement = 'INSERT INTO dep (ndep, nome, local) VALUES (%s, %s, %s)'
-    values = (payload['ndep'], payload['nome'], payload['localidade'])
-
-    try:
-        cur.execute(statement, values)
-
-        # commit the transaction
-        conn.commit()
-        response = {'status': StatusCodes['success'], 'results': f'Inserted dep {payload["ndep"]}'}
-
-    except (Exception, psycopg2.DatabaseError) as error:
-        logger.error(f'POST /departments - error: {error}')
-        response = {'status': StatusCodes['internal_error'], 'errors': str(error)}
-
-        # an error occurred, rollback
-        conn.rollback()
-
-    finally:
-        if conn is not None:
-            conn.close()
-
-    return flask.jsonify(response)
-
-##########################################################
-## DEMO ENDPOINTS END
-##########################################################
-
-
-
-
-
-
 
 ##########################################################
 ## DATABASE ACCESS
@@ -143,12 +30,12 @@ def add_departments():
 
 def db_connection():
     db = psycopg2.connect(
-        user='userProjeto',
-        password=os.getenv('PASS_DATABASE'),
-        host='127.0.0.1',
-        port='5432',
-        database='projeto'
-    )
+    host="127.0.0.1",
+    port='5432',
+    database=os.getenv("DB_NAME"),
+    user=os.getenv("DB_USER"),
+    password=os.getenv("DB_PASSWORD")
+)
 
     return db
 
@@ -662,52 +549,92 @@ def top3_students():
 
 @app.route('/dbproj/top_by_district', methods=['GET'])
 @token_required
+@token_required_with_role('staff')
 def top_by_district():
+    conn = db_connection()
+    cur = conn.cursor()
 
-    resultTopByDistrict = [ # TODO
+    
+    query = """
+        SELECT DISTINCT ON (u.district) s.utilizador_userid, u.district, AVG(g.grade) AS avg_grade
+        FROM student AS s
+        JOIN utilizador AS u ON s.utilizador_userid = u.userid
+        JOIN grades AS g ON g.student_utilizador_userid = s.utilizador_userid
+        GROUP BY s.utilizador_userid, u.name, u.district
+        ORDER BY u.district, AVG(g.grade) DESC
+    """
+    cur.execute(query)
+    rows = cur.fetchall()
+    result = [
         {
-            'student_id': random.randint(1, 200),
-            'district': "Coimbra",
-            'average_grade': 15.2
-        },
-        {
-            'student_id': random.randint(1, 200),
-            'district': "Coimbra",
-            'average_grade': 13.6
+            'student_id': row[0],
+            'district': row[1],
+            'average_grade': float(row[2])
         }
+        for row in rows
     ]
+    conn.close()
+    return flask.jsonify({'status': StatusCodes['success'], 'errors': None, 'results': result})
 
-    response = {'status': StatusCodes['success'], 'errors': None, 'results': resultTopByDistrict}
-    return flask.jsonify(response)
+
 
 @app.route('/dbproj/report', methods=['GET'])
 @token_required
 def monthly_report():
+    conn = db_connection()
+    cur = conn.cursor()
 
-    resultReport = [ # TODO
-        {
-            'month': "month_0",
-            'course_edition_id': random.randint(1, 200),
-            'course_edition_name': "Some course",
-            'approved': 20,
-            'evaluated': 23
-        },
-        {
-            'month': "month_1",
-            'course_edition_id': random.randint(1, 200),
-            'course_edition_name': "Another course",
-            'approved': 200,
-            'evaluated': 123
-        }
-    ]
 
+    cur.execute("""
+        SELECT m1.month, m1.course_edition_id, m1.course_edition_name, m1.approved, m1.evaluated
+        FROM monthly_report AS m1
+        JOIN (
+            SELECT month, MAX(approved) AS max_approved
+            FROM monthly_report
+            WHERE month >= EXTRACT(MONTH FROM CURRENT_DATE - INTERVAL '12 months')
+            GROUP BY month
+        ) m2
+        ON m1.month = m2.month AND m1.approved = m2.max_approved
+        WHERE m1.month >= EXTRACT(MONTH FROM CURRENT_DATE - INTERVAL '12 months')
+        ORDER BY m1.month DESC;
+    """)
+    rows = cur.fetchall()
+
+    resultReport = []
+    for row in rows:
+        resultReport.append({
+            'month': row[0],
+            'course_edition_id': row[1],
+            'course_edition_name': row[2],
+            'approved': row[3],
+            'evaluated': row[4]
+        })
+    conn.close()
     response = {'status': StatusCodes['success'], 'errors': None, 'results': resultReport}
     return flask.jsonify(response)
 
+
 @app.route('/dbproj/delete_details/<student_id>', methods=['DELETE'])
-@token_required
+@token_required_with_role('staff')
 def delete_student(student_id):
-    response = {'status': StatusCodes['success'], 'errors': None}
+    conn = db_connection()
+    cur = conn.cursor()
+
+    try:
+        # Verifica se o student_id existe
+        cur.execute("SELECT 1 FROM student WHERE utilizador_userid = %s", (student_id,))
+        exists = cur.fetchone()
+        if not exists:
+            response = {'status': StatusCodes['api_error'], 'errors': 'Student not found'}
+        else:
+            cur.execute("CALL delete_student_data(%s)", (student_id,))
+            conn.commit()
+            response = {'status': StatusCodes['success'], 'errors': None}
+    except Exception as e:
+        conn.rollback()
+        response = {'status': StatusCodes['internal_error'], 'errors': str(e)}
+    finally:
+        conn.close()
     return flask.jsonify(response)
 
 if __name__ == '__main__':
