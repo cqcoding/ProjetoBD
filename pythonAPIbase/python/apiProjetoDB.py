@@ -156,7 +156,7 @@ def register_student():
     statement1 = 'INSERT INTO utilizador (mail, password, name,age,phone_number,username) VALUES (%s, %s, %s, %s, %s,%s) returning userid'
     values1 = (email, password,name,age,phone_number, username)
 
-    try:
+    try: 
         cur.execute(statement1, values1)
         
         resultUserId = cur.fetchone()[0]
@@ -182,7 +182,6 @@ def register_student():
 
 @app.route('/dbproj/register/staff', methods=['POST'])  ###Comentario:Precisamos criar!!!
 @token_required
-@token_required_with_role('admin')
 def register_staff():
     data = flask.request.get_json()
     username = data.get('username')
@@ -227,7 +226,6 @@ def register_instructor():
         cur.execute(statement1, values1)
         
         resultUserId = cur.fetchone()[0]
-        # commit the transaction
         conn.commit()
 
         statement2 = 'INSERT INTO instructor (type, utilizador_userid) VALUES (%s,%s)'
@@ -241,7 +239,6 @@ def register_instructor():
         logger.error(f'POST /dbproj/register/instructor - error: {error}')
         response = {'status': StatusCodes['internal_error'], 'errors': str(error)}
 
-        # an error occurred, rollback
         conn.rollback()
 
     finally:
@@ -427,7 +424,7 @@ def monthly_report():
 
     resultReport = [ # TODO
         {
-            'month': "month_0",
+            'month': "month_0", ##usar mes do evaluation period
             'course_edition_id': random.randint(1, 200),
             'course_edition_name': "Some course",
             'approved': 20,    ###Comentario: colocar trigger ao submeter notas para criar tabela de aprovados ou não
@@ -464,6 +461,48 @@ def delete_student(student_id):
     response = {'status': StatusCodes['success'], 'errors': None}
     return flask.jsonify(response)
 
+@app.route('/dbproj/init_admin', methods=['POST'])
+def init_admin():
+    conn = db_connection()
+    cur = conn.cursor()
+
+    # Dados do administrador a ser criado
+    admin_data = {
+        'mail': 'admin@email.com',
+        'password': 'senha123',
+        'name': 'Administrador',
+        'age': 30,
+        'phone_number': '999999999',
+        'username': 'adminuser'
+    }
+
+    try:
+        # Inserir na tabela utilizador
+        cur.execute("""
+            INSERT INTO utilizador (mail, password, name, age, phone_number, username)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            RETURNING userid;
+        """, (admin_data['mail'], admin_data['password'], admin_data['name'], admin_data['age'], admin_data['phone_number'], admin_data['username']))
+
+        # Obter o userid retornado
+        userid_retorno = cur.fetchone()[0]
+
+        # Inserir na tabela admin
+        cur.execute("""
+            INSERT INTO admin (utilizador_userid) VALUES (%s);
+        """, (userid_retorno,))
+
+        conn.commit()
+        response = {'status': StatusCodes['success'], 'errors': None, 'results': 'Admin initialized'}
+    except (Exception, psycopg2.DatabaseError) as error:
+        logger.error(f'POST /dbproj/init_admin - error: {error}')
+        response = {'status': StatusCodes['internal_error'], 'errors': str(error)}
+        conn.rollback()
+    finally:
+        if conn is not None:
+            conn.close()
+    return flask.jsonify(response)
+
 if __name__ == '__main__':
     logging.basicConfig(filename='log_file.log')
     logger = logging.getLogger('logger')
@@ -478,4 +517,4 @@ if __name__ == '__main__':
     host = '127.0.0.1'
     port = 8080
     app.run(host=host, debug=True, threaded=True, port=port)
-    logger.info(f'API stubs online: http://{host}:{port}') 
+    logger.info(f'API stubs online: http://{host}:{port}')

@@ -264,3 +264,30 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 332-245-466
 INFO:logger:API stubs online: http://127.0.0.1:8080
 INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 09:29:00] "[35m[1mPOST /dbproj/register/student HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 09:29:16] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
