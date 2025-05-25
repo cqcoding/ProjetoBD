@@ -6,6 +6,9 @@ Students:
 * Joana Correia Vilas Boas uc2023223186@student.uc.pt
 
 This repository contains the necessary files for the practical assignment of the Databases course from the Informatics Engineering Department at Univeristy of Coimbra. The base code was already provided by the professor. 
+These videos provide a demo of the working project: https://www.loom.com/share/57c2d5aa9cf64cebac39e6fd8f27e481?sid=51cafae1-bcce-411a-a02f-7fc5ffd90cb6
+
+https://www.loom.com/share/ce3d353356674b2f96fff990451f7643 
 
 
 ## [Python](python) REST API
