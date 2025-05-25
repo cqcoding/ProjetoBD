@@ -291,3 +291,2117 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 332-245-466
 INFO:logger:API stubs online: http://127.0.0.1:8080
 INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:21:12] "[35m[1mPOST /dbproj/register/staff HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default criado.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:22:20] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:23:42] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:25:16] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:50:04] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:51:01] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:51:30] "[35m[1mPOST /dbproj/register/staff?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ HTTP/1.1[0m" 500 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/register/staff - error: 'int' object does not support indexing
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:53:06] "POST /dbproj/register/staff?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:54:25] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:55:10] "[31m[1mPOST /dbproj/register/student HTTP/1.1[0m" 400 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:55:16] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/register/instructor - error: 'int' object does not support indexing
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:57:26] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/1 - error: ERRO:  coluna "version_version_id" da relação "enrollment" não existe
+LINE 2: ...      INSERT INTO enrollment (status, type, data, version_ve...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:59:12] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 17:59:59] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 18:00:05] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTIiLCJyb2xlIjoic3R1ZGVudCJ9.1auuhlCXcORhynMxHRuytm-mooPlmwElESd87FJg63U
+DEBUG:logger:JWT payload: {'username': 'maria12', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTIiLCJyb2xlIjoic3R1ZGVudCJ9.1auuhlCXcORhynMxHRuytm-mooPlmwElESd87FJg63U
+DEBUG:logger:JWT payload: {'username': 'maria12', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 18:00:26] "[35m[1mPOST /dbproj/enroll_activity/1 HTTP/1.1[0m" 500 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/1 - error: ERRO:  coluna "student_utiliza_userid" da relação "enrollment" não existe
+LINE 2: ...rollment (status, type, data, version_version_id, student_ut...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 18:04:41] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/1 - error: ERRO:  o valor nulo na coluna "enrollment_id" da relação "enrollment" viola a restrição de não-nulo
+DETAIL:  Registro que falhou contém (null, t, normal, 2024-02-23, 3, 1).
+
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 18:07:12] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/register/staff - error: ERRO:  duplicar valor da chave viola a restrição de unicidade "utilizador_mail_username_key"
+DETAIL:  Chave (mail, username)=(novo.staff@uni.pt, novo_staff) já existe.
+
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 18:19:34] "POST /dbproj/register/staff?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 18:20:10] "POST /dbproj/register/staff?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 18:20:50] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTIiLCJyb2xlIjoic3R1ZGVudCJ9.1auuhlCXcORhynMxHRuytm-mooPlmwElESd87FJg63U
+DEBUG:logger:JWT payload: {'username': 'maria12', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTIiLCJyb2xlIjoic3R1ZGVudCJ9.1auuhlCXcORhynMxHRuytm-mooPlmwElESd87FJg63U
+DEBUG:logger:JWT payload: {'username': 'maria12', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 18:31:39] "[35m[1mPOST /dbproj/enroll_activity/esporte HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTIiLCJyb2xlIjoic3R1ZGVudCJ9.1auuhlCXcORhynMxHRuytm-mooPlmwElESd87FJg63U
+DEBUG:logger:JWT payload: {'username': 'maria12', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTIiLCJyb2xlIjoic3R1ZGVudCJ9.1auuhlCXcORhynMxHRuytm-mooPlmwElESd87FJg63U
+DEBUG:logger:JWT payload: {'username': 'maria12', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 18:33:09] "[35m[1mPOST /dbproj/enroll_activity/esporte HTTP/1.1[0m" 500 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 21:36:23] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTIiLCJyb2xlIjoic3R1ZGVudCJ9.1auuhlCXcORhynMxHRuytm-mooPlmwElESd87FJg63U
+DEBUG:logger:JWT payload: {'username': 'maria12', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTIiLCJyb2xlIjoic3R1ZGVudCJ9.1auuhlCXcORhynMxHRuytm-mooPlmwElESd87FJg63U
+DEBUG:logger:JWT payload: {'username': 'maria12', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 21:37:00] "POST /dbproj/enroll_activity/esporte HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/1 - error: ERRO:  o valor nulo na coluna "enrollment_id" da relação "enrollment" viola a restrição de não-nulo
+DETAIL:  Registro que falhou contém (null, t, normal, 2025-05-21, 2, 1).
+
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 21:46:42] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 21:47:44] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2025210 - error: ERRO:  o valor nulo na coluna "enrollment_id" da relação "enrollment" viola a restrição de não-nulo
+DETAIL:  Registro que falhou contém (null, t, normal, 2025-05-21, 2, 1).
+
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 21:47:59] "POST /dbproj/enroll_degree/2025210 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2025210 - error: ERRO:  inserção ou atualização em tabela "enrollment" viola restrição de chave estrangeira "enrollment_fk1"
+DETAIL:  Chave (student_utilizador_userid)=(2) não está presente na tabela "student".
+
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 22:16:09] "POST /dbproj/enroll_degree/2025210 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2025210 - error: ERRO:  inserção ou atualização em tabela "enrollment" viola restrição de chave estrangeira "enrollment_fk2"
+DETAIL:  Chave (version_version_id)=(1) não está presente na tabela "version".
+
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 22:16:29] "POST /dbproj/enroll_degree/2025210 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2025210 - error: ERRO:  inserção ou atualização em tabela "enrollment" viola restrição de chave estrangeira "enrollment_fk2"
+DETAIL:  Chave (version_version_id)=(1) não está presente na tabela "version".
+
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 22:27:31] "POST /dbproj/enroll_degree/2025210 HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default criado.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 22:46:49] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [21/May/2025 22:48:07] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 332-245-466
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 13:52:34] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 13:53:17] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default criado.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 13:53:41] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/register/student - error: ERRO:  o valor nulo na coluna "district" da relação "student" viola a restrição de não-nulo
+DETAIL:  Registro que falhou contém (155, null, 2).
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 13:53:58] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/register/student - error: tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 13:55:53] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/register/student - error: tuple index out of range
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 13:57:02] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/register/student - error: ERRO:  duplicar valor da chave viola a restrição de unicidade "utilizador_mail_username_key"
+DETAIL:  Chave (mail, username)=(maria.mendes2@gmail.com, maria12) já existe.
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 13:59:43] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 14:00:12] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 14:02:48] "POST /dbproj/register/staff?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 14:09:13] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/1 - error: ERRO:  coluna "version_version_id" da relação "enrollment" não existe
+LINE 2: ...      INSERT INTO enrollment (status, type, data, version_ve...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 14:10:00] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 14:23:57] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 14:31:27] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 14:32:57] "POST /dbproj/enroll_activity/esporte HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: ERRO:  inserção ou atualização em tabela "enrollment_version" viola restrição de chave estrangeira "enrollment_version_fk2"
+DETAIL:  Chave (version_version_id)=(20) não está presente na tabela "version".
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 14:56:10] "POST /dbproj/enroll_course_edition/20 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:03:24] "[35m[1mPOST /dbproj/enroll_course_edition/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: 'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:05:06] "POST /dbproj/enroll_course_edition/20 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: ERRO:  inserção ou atualização em tabela "enrollment_version" viola restrição de chave estrangeira "enrollment_version_fk2"
+DETAIL:  Chave (version_version_id)=(20) não está presente na tabela "version".
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:08:54] "POST /dbproj/enroll_course_edition/20 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:11:27] "[35m[1mPOST /dbproj/enroll_course_edition/20 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:15:32] "POST /dbproj/enroll_course_edition/20 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:27:54] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:29:09] "[35m[1mPOST /dbproj/submit_grades/1 HTTP/1.1[0m" 500 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:30:50] "[35m[1mPOST /dbproj/submit_grades/20 HTTP/1.1[0m" 500 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:31:37] "[35m[1mPOST /dbproj/submit_grades/20 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: ERRO:  coluna "grades_evaluation_period_period_id" não existe
+LINE 3:                    RETURNING grades_evaluation_period_period...
+                                     ^
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:46:02] "POST /dbproj/submit_grades/20 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: ERRO:  coluna "grades_evaluation_period_period_id" não existe
+LINE 3:                    RETURNING grades_evaluation_period_period...
+                                     ^
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:50:04] "POST /dbproj/submit_grades/20 HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: ERRO:  coluna "grades_evaluation_period_period_id" não existe
+LINE 3:                    RETURNING grades_evaluation_period_period...
+                                     ^
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:50:27] "POST /dbproj/submit_grades/20 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: ERRO:  o valor nulo na coluna "student_utilizador_userid" da relação "grades" viola a restrição de não-nulo
+DETAIL:  Registro que falhou contém (t, 18, 1, null, 6).
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:52:43] "POST /dbproj/submit_grades/20 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:55:31] "[31m[1mGET /dbproj/enroll_course_edition/{course_edition_id} HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 15:55:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: 'list' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:19:03] "POST /dbproj/submit_grades/20 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: 'list' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:22:51] "POST /dbproj/submit_grades/20 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: 'list' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:22:53] "POST /dbproj/submit_grades/20 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:24:43] "POST /dbproj/submit_grades/20 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:32:56] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:34:01] "GET /dbproj/student_details/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:34:46] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+ERROR:logger:GET /dbproj/student_details/4 - error: ERRO:  coluna g.enrollment_enrollment_id não existe
+LINE 11:             LEFT JOIN grades g ON g.enrollment_enrollment_id...
+                                           ^
+HINT:  Talvez você queira fazer referência à coluna "ev.enrollment_enrollment_id".
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:35:04] "GET /dbproj/student_details/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:36:33] "GET /dbproj/student_details/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+ERROR:logger:GET /dbproj/student_details/4 - error: ERRO:  coluna g.enrollment_enrollment_id não existe
+LINE 11:             LEFT JOIN grades g ON g.enrollment_enrollment_id...
+                                           ^
+HINT:  Talvez você queira fazer referência à coluna "ev.enrollment_enrollment_id".
+
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:38:04] "GET /dbproj/student_details/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:41:04] "GET /dbproj/student_details/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:58:37] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:59:01] "GET /dbproj/student_details/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 21:59:23] "GET /dbproj/student_details/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:01:21] "GET /dbproj/student_details/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:05:15] "GET /dbproj/student_details/4 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:06:22] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer Sample token, should be random!
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:13:17] "GET /dbproj/degree_details/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:15:57] "GET /dbproj/degree_details/1 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:18:28] "GET /dbproj/degree_details/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:19:20] "GET /dbproj/degree_details/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 418-856-478
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:27:28] "[33mGET /top3 HTTP/1.1[0m" 404 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:27:50] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:29:51] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:30:00] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:30:15] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:30:30] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:34:14] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:34:43] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:35:11] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:35:16] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:35:26] "POST /dbproj/enroll_degree/3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:35:31] "POST /dbproj/enroll_degree/3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:48:48] "GET /dbproj/degree_details/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [22/May/2025 22:48:55] "GET /dbproj/degree_details/3 HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default criado.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:21:07] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:21:28] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:21:59] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:22:40] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:22:49] "POST /dbproj/register/staff?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:22:55] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:23:17] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:23:34] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:35:17] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:36:03] "POST /dbproj/enroll_activity/esporte HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:36:24] "POST /dbproj/enroll_activity/hackathon HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhMTMiLCJyb2xlIjoic3R1ZGVudCJ9.d7rNnk5JzpTYAjI1WT93myQuvfeAbWaq_4YKebqbXUI
+DEBUG:logger:JWT payload: {'username': 'maria13', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 01:38:23] "POST /dbproj/enroll_course_edition/19 HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: ERRO:  o valor nulo na coluna "admin_utilizador_userid" da relação "enrollment" viola a restrição de não-nulo
+DETAIL:  Registro que falhou contém (1, t, course, 2025-05-24, 4, null).
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 14:24:01] "POST /dbproj/enroll_course_edition/19 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:09:54] "[33mGET /search HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:09:59] "[33mGET /search HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:11:54] "[33mGET /search HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:41:23] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default criado.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:41:49] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:42:12] "[31m[1mPOST /dbproj/register/student HTTP/1.1[0m" 400 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:42:21] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:42:28] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:42:32] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:42:54] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:43:14] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:43:19] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/3 - error: ERRO:  inserção ou atualização em tabela "enrollment" viola restrição de chave estrangeira "enrollment_fk1"
+DETAIL:  Chave (student_utilizador_userid)=(1) não está presente na tabela "student".
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:47:20] "POST /dbproj/enroll_degree/3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:52:18] "POST /dbproj/enroll_degree/3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:52:39] "POST /dbproj/enroll_activity/hackathon HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:54:27] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: ERRO:  inserção ou atualização em tabela "enrollment_version" viola restrição de chave estrangeira "enrollment_version_fk2"
+DETAIL:  Chave (version_version_id)=(19) não está presente na tabela "version".
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:55:11] "POST /dbproj/enroll_course_edition/19 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: ERRO:  inserção ou atualização em tabela "enrollment_version" viola restrição de chave estrangeira "enrollment_version_fk2"
+DETAIL:  Chave (version_version_id)=(20) não está presente na tabela "version".
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:55:49] "POST /dbproj/enroll_course_edition/20 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: ERRO:  coluna "lesson_version_version_id" da relação "enrollment_lesson" não existe
+LINE 2: ...sson (enrollment_enrollment_id, lesson_lesson_id, lesson_ver...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:55:57] "POST /dbproj/enroll_course_edition/28 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: ERRO:  coluna "admin_utilizador_userid" da relação "enrollment" não existe
+LINE 2: ...t (status, type, data, student_utilizador_userid, admin_util...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:57:03] "POST /dbproj/enroll_course_edition/28 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 18:58:46] "POST /dbproj/enroll_course_edition/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9pbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.2nlBgOI1e8Kj_kj6JVFBh9PQ-pGnkvQo0GFUPB-0Jlc
+DEBUG:logger:JWT payload: {'username': 'Joaoinstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:03:47] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:04:19] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: ERRO:  duplicar valor da chave viola a restrição de unicidade "grades_pkey"
+DETAIL:  Chave (evaluation_period_period_id)=(1) já existe.
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:04:31] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:04:43] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:05:10] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:05:28] "GET /dbproj/student_details/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:05:53] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:06:41] "GET /dbproj/degree_details/1 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:08:21] "GET /dbproj/degree_details/1 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:09:07] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: ERRO:  duplicar valor da chave viola a restrição de unicidade "grades_pkey"
+DETAIL:  Chave (evaluation_period_period_id)=(1) já existe.
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:30:56] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: ERRO:  duplicar valor da chave viola a restrição de unicidade "grades_version_pkey"
+DETAIL:  Chave (grades_evaluation_period_period_id)=(1) já existe.
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:37:04] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: no results to fetch
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:39:56] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: no results to fetch
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 19:40:06] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+ERROR:logger:POST /dbproj/submit_grades - error: ERRO:  coluna "grades_student_utilizador_userid" da relação "grades_version" não existe
+LINE 1: ...ades_version (grades_evaluation_period_period_id, grades_stu...
+                                                             ^
+
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:19:24] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:20:34] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:20:52] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:21:34] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:28:52] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:30:02] "GET /dbproj/top_by_district HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:31:00] "[35m[1mGET /dbproj/report HTTP/1.1[0m" 500 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:32:38] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:33:19] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:33:32] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:35:02] "[35m[1mGET /dbproj/report HTTP/1.1[0m" 500 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:35:34] "DELETE /dbproj/delete_details/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:37:59] "GET /dbproj/report HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:41:33] "DELETE /dbproj/delete_details/4 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:43:22] "DELETE /dbproj/delete_details/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:43:23] "DELETE /dbproj/delete_details/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [24/May/2025 22:43:55] "DELETE /dbproj/delete_details/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  Saldo insuficiente para matrícula. Saldo atual: 0, necessário: 100.0
+CONTEXT:  função PL/pgSQL charge_student_on_enrollment() linha 14 em RAISE
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:02:29] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  coluna "student_utilizador_userid" não existe
+LINE 3:     WHERE student_utilizador_userid = NEW.student_utilizador...
+                  ^
+QUERY:  SELECT balance
+                             FROM student
+    WHERE student_utilizador_userid = NEW.student_utilizador_userid
+CONTEXT:  função PL/pgSQL charge_student_on_enrollment() linha 6 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:06:34] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  INSERT tem mais colunas alvo do que expressões
+LINE 6:  activities_extra_type
+         ^
+QUERY:  INSERT INTO transactions (
+        amount,
+        transactions_type,
+        transaction_data,
+        student_utilizador_userid,
+	activities_extra_type
+    )
+    VALUES (
+        -enrollment_fee,
+        'enrollment',
+        CURRENT_DATE,
+        NEW.student_utilizador_userid
+    )
+CONTEXT:  função PL/pgSQL charge_student_on_enrollment() linha 17 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:07:30] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  coluna cl.id_classroom não existe
+LINE 4:     JOIN classroom cl ON cl.id_classroom = l.classroom_id_cl...
+                                 ^
+HINT:  Talvez você queira fazer referência à coluna "cl.id_classrom".
+QUERY:  SELECT cl.id_classroom, cl.capacity
+                                              FROM version v
+    JOIN lesson l ON l.version_version_id = v.version_id
+    JOIN classroom cl ON cl.id_classroom = l.classroom_id_classroom
+    WHERE v.version_id = (
+        SELECT v2.version_id
+        FROM enrollment e
+        JOIN version v2 ON v2.version_id = (
+            SELECT l.version_version_id
+            FROM lesson l
+            LIMIT 1  -- Supondo 1 aula por curso
+        )
+        WHERE e.enrollment_id = NEW.enrollment_id
+    )
+    LIMIT 1
+CONTEXT:  função PL/pgSQL check_classroom_capacity_before_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:14:52] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  relação "classrom" não existe
+LINE 4:     JOIN classrom cl ON cl.id_classrom = l.classrom_id_class...
+                 ^
+QUERY:  SELECT cl.id_classrom, cl.capacity
+                                            FROM version v
+    JOIN lesson l ON l.version_version_id = v.version_id
+    JOIN classrom cl ON cl.id_classrom = l.classrom_id_classrom
+    WHERE v.version_id = (
+        SELECT v2.version_id
+        FROM enrollment e
+        JOIN version v2 ON v2.version_id = (
+            SELECT l.version_version_id
+            FROM lesson l
+            LIMIT 1  -- Supondo 1 aula por curso
+        )
+        WHERE e.enrollment_id = NEW.enrollment_id
+    )
+    LIMIT 1
+CONTEXT:  função PL/pgSQL check_classrom_capacity_before_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:18:04] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  relação "classrom" não existe
+LINE 4:     JOIN classrom cl ON cl.id_classrom = l.classrom_id_class...
+                 ^
+QUERY:  SELECT cl.id_classrom, cl.capacity
+                                            FROM version v
+    JOIN lesson l ON l.version_version_id = v.version_id
+    JOIN classrom cl ON cl.id_classrom = l.classrom_id_classrom
+    WHERE v.version_id = (
+        SELECT v2.version_id
+        FROM enrollment e
+        JOIN version v2 ON v2.version_id = (
+            SELECT l.version_version_id
+            FROM lesson l
+            LIMIT 1  -- Supondo 1 aula por curso
+        )
+        WHERE e.enrollment_id = NEW.enrollment_id
+    )
+    LIMIT 1
+CONTEXT:  função PL/pgSQL check_classrom_capacity_before_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:20:28] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  relação "classrom" não existe
+LINE 4:     JOIN classrom cl ON cl.id_classrom = l.classrom_id_class...
+                 ^
+QUERY:  SELECT cl.id_classrom, cl.capacity
+                                            FROM version v
+    JOIN lesson l ON l.version_version_id = v.version_id
+    JOIN classrom cl ON cl.id_classrom = l.classrom_id_classrom
+    WHERE v.version_id = (
+        SELECT v2.version_id
+        FROM enrollment e
+        JOIN version v2 ON v2.version_id = (
+            SELECT l.version_version_id
+            FROM lesson l
+            LIMIT 1  -- Supondo 1 aula por curso
+        )
+        WHERE e.enrollment_id = NEW.enrollment_id
+    )
+    LIMIT 1
+CONTEXT:  função PL/pgSQL check_classrom_capacity_before_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:20:37] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  relação "classrom" não existe
+LINE 4:     JOIN classrom cl ON cl.id_classrom = l.classrom_id_class...
+                 ^
+QUERY:  SELECT cl.id_classrom, cl.capacity
+                                            FROM version v
+    JOIN lesson l ON l.version_version_id = v.version_id
+    JOIN classrom cl ON cl.id_classrom = l.classrom_id_classrom
+    WHERE v.version_id = (
+        SELECT v2.version_id
+        FROM enrollment e
+        JOIN version v2 ON v2.version_id = (
+            SELECT l.version_version_id
+            FROM lesson l
+            LIMIT 1  -- Supondo 1 aula por curso
+        )
+        WHERE e.enrollment_id = NEW.enrollment_id
+    )
+    LIMIT 1
+CONTEXT:  função PL/pgSQL check_classrom_capacity_before_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:22:15] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  relação "classrom" não existe
+LINE 4:     JOIN classrom cl ON cl.id_classrom = l.classrom_id_class...
+                 ^
+QUERY:  SELECT cl.id_classrom, cl.capacity
+                                            FROM version v
+    JOIN lesson l ON l.version_version_id = v.version_id
+    JOIN classrom cl ON cl.id_classrom = l.classrom_id_classrom
+    WHERE v.version_id = (
+        SELECT v2.version_id
+        FROM enrollment e
+        JOIN version v2 ON v2.version_id = (
+            SELECT l.version_version_id
+            FROM lesson l
+            LIMIT 1  -- Supondo 1 aula por curso
+        )
+        WHERE e.enrollment_id = NEW.enrollment_id
+    )
+    LIMIT 1
+CONTEXT:  função PL/pgSQL check_classrom_capacity_before_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:23:33] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  relação "classrom" não existe
+LINE 4:     JOIN classrom cl ON cl.id_classrom = l.classrom_id_class...
+                 ^
+QUERY:  SELECT cl.id_classrom, cl.capacity
+                                            FROM version v
+    JOIN lesson l ON l.version_version_id = v.version_id
+    JOIN classrom cl ON cl.id_classrom = l.classrom_id_classrom
+    WHERE v.version_id = (
+        SELECT v2.version_id
+        FROM enrollment e
+        JOIN version v2 ON v2.version_id = (
+            SELECT l.version_version_id
+            FROM lesson l
+            LIMIT 1  -- Supondo 1 aula por curso
+        )
+        WHERE e.enrollment_id = NEW.enrollment_id
+    )
+    LIMIT 1
+CONTEXT:  função PL/pgSQL check_classrom_capacity_before_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:24:03] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:38:43] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:39:52] "POST /dbproj/submit_grades/34 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:40:01] "POST /dbproj/submit_grades/34 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:40:10] "POST /dbproj/submit_grades/34 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:40:16] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:48:36] "POST /dbproj/submit_grades/34 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:48:44] "POST /dbproj/submit_grades/34 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNhaW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.3UFRqUQCeg83b6O1OrbHYOsmmasM6b39dQzcDXmPbnM
+DEBUG:logger:JWT payload: {'username': 'CaioInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:48:52] "POST /dbproj/submit_grades/34 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 10:48:59] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  registro "new" não tem campo "enrollment_enrollment_id"
+CONTEXT:  comando SQL "SELECT student_utilizador_userid
+                        FROM enrollment
+    WHERE enrollment_id = NEW.enrollment_enrollment_id"
+função PL/pgSQL charge_student_on_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 14:07:44] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  registro "new" não tem campo "enrollment_enrollment_id"
+CONTEXT:  comando SQL "SELECT student_utilizador_userid
+                        FROM enrollment
+    WHERE enrollment_id = NEW.enrollment_enrollment_id"
+função PL/pgSQL charge_student_on_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 14:25:58] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 17:55:35] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 17:56:14] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 17:56:40] "POST /dbproj/register/staff?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 17:57:03] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  registro "new" não tem campo "enrollment_enrollment_id"
+CONTEXT:  comando SQL "SELECT student_utilizador_userid
+                        FROM enrollment
+    WHERE enrollment_id = NEW.enrollment_enrollment_id"
+função PL/pgSQL charge_student_on_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 18:50:28] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  Não foi possível encontrar o aluno associado à inscrição.
+CONTEXT:  função PL/pgSQL charge_student_on_enrollment() linha 14 em RAISE
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 18:53:28] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  Não foi possível encontrar o aluno associado à inscrição.
+CONTEXT:  função PL/pgSQL charge_student_on_enrollment() linha 14 em RAISE
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 18:53:53] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  Não foi possível encontrar o aluno associado à inscrição.
+CONTEXT:  função PL/pgSQL charge_student_on_enrollment() linha 14 em RAISE
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 18:53:55] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  relação "classrom" não existe
+LINE 4:     JOIN classrom cl ON cl.id_classrom = l.classrom_id_class...
+                 ^
+QUERY:  SELECT cl.id_classrom, cl.capacity
+                                            FROM version v
+    JOIN lesson l ON l.version_version_id = v.version_id
+    JOIN classrom cl ON cl.id_classrom = l.classrom_id_classrom
+    WHERE v.version_id = (
+        SELECT v2.version_id
+        FROM enrollment e
+        JOIN version v2 ON v2.version_id = (
+            SELECT l.version_version_id
+            FROM lesson l
+            LIMIT 1  -- Supondo 1 aula por curso
+        )
+        WHERE e.enrollment_id = NEW.enrollment_id
+    )
+    LIMIT 1
+CONTEXT:  função PL/pgSQL check_classrom_capacity_before_enrollment() linha 8 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 18:55:04] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  registro "new" não tem campo "student_utilizador_userid"
+CONTEXT:  comando SQL "SELECT balance
+                             FROM student
+    WHERE utilizador_userid = NEW.student_utilizador_userid"
+função PL/pgSQL charge_student_on_enrollment() linha 7 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 18:56:41] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+ERROR:logger:POST /dbproj/enroll_degree/2 - error: ERRO:  coluna "activities_extra_type" da relação "transactions" não existe
+LINE 6:   activities_extra_type
+          ^
+QUERY:  INSERT INTO transactions (
+        amount,
+        transactions_type,
+        transaction_data,
+        student_utilizador_userid,
+		activities_extra_type
+    )
+    VALUES (
+        -enrollment_fee,
+        'enrollment',
+        CURRENT_DATE,
+        NEW.student_utilizador_userid
+    )
+CONTEXT:  função PL/pgSQL charge_student_on_enrollment() linha 17 em comando SQL
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:01:41] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:02:08] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:02:19] "POST /dbproj/enroll_degree/3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:02:25] "POST /dbproj/enroll_degree/3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:06:01] "POST /dbproj/enroll_degree/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:10:46] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:11:00] "POST /dbproj/enroll_activity/hackathon HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:12:09] "[31m[1mPOST /dbproj/withdraw_activity/hackathon HTTP/1.1[0m" 405 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:13:12] "DELETE /dbproj/withdraw_activity/hackathon HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:14:40] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcmlhYSIsInJvbGUiOiJzdHVkZW50In0.GE-aJlRnNOBGhmHt1i0qDgyxZgID-xZikTWuoT-VGE4
+DEBUG:logger:JWT payload: {'username': 'mariaa', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:14:50] "GET /dbproj/student_details/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:14:58] "GET /dbproj/degree_details/1 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:15:02] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:15:06] "GET /dbproj/top_by_district HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:15:21] "GET /dbproj/report HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:24:19] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:26:38] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: ERRO:  Saldo insuficiente para matrícula. Saldo atual: 60, necessário: 100.0
+CONTEXT:  função PL/pgSQL charge_student_on_enrollment() linha 13 em RAISE
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:26:49] "POST /dbproj/enroll_course_edition/33 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:28:59] "POST /dbproj/enroll_course_edition/33 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:40:12] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:40:39] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: ERRO:  Saldo insuficiente para matrícula. Saldo atual: 0, necessário: 100.0
+CONTEXT:  função PL/pgSQL charge_student_on_enrollment() linha 13 em RAISE
+
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:40:55] "POST /dbproj/enroll_course_edition/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: Lesson 17 does not belong to course edition 28
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:45:13] "POST /dbproj/enroll_course_edition/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+ERROR:logger:POST /dbproj/enroll_course_edition - error: Lesson 6 does not belong to course edition 28
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:45:38] "POST /dbproj/enroll_course_edition/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 19:46:05] "POST /dbproj/enroll_course_edition/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 20:27:28] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcmxvc2FsIiwicm9sZSI6InN0dWRlbnQifQ._Sj_i8WqcnSiJeFPaTQaFg85V83ZDb8bwK8V3UW5JH0
+DEBUG:logger:JWT payload: {'username': 'carlosal', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 20:31:15] "POST /dbproj/enroll_course_edition/28 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 20:32:49] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 20:32:51] "GET /dbproj/top3 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug: * Detected change in '/home/cecilia/Databases2025/ProjetoBD/pythonAPIbase/python/apiProjetoDB.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:logger:Utilizador admin default já existe.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 950-213-650
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 20:41:10] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:00:53] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:01:15] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:01:39] "POST /dbproj/register/staff?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:01:53] "POST /dbproj/register/instructor HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:02:21] "POST /dbproj/enroll_degree/1 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:02:33] "GET /dbproj/degree_details/1 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:02:51] "GET /dbproj/top_by_district HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:03:21] "GET /dbproj/report HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:03:35] "DELETE /dbproj/delete_details/11 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:04:25] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:10:11] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImluaXRfYWRtIiwicm9sZSI6ImFkbWluIn0.CQEi11tcpKVyR76tk5ls_6NE9qhlwP-dICZ9dXU9vHQ
+DEBUG:logger:JWT payload: {'username': 'init_adm', 'role': 'admin'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:11:26] "POST /dbproj/register/student HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvYW9JbnN0cnV0b3IiLCJyb2xlIjoiaW5zdHJ1Y3RvciJ9.6W3B71n2q7QEQiTt0dqrhWfT47CHUFL8mZgsAqMpzjw
+DEBUG:logger:JWT payload: {'username': 'JoaoInstrutor', 'role': 'instructor'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:14:15] "POST /dbproj/submit_grades/28 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:14:49] "PUT /dbproj/user HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:15:44] "POST /dbproj/enroll_activity/projeto%20de%20pesquisa HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:16:04] "GET /dbproj/student_details/2 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:16:11] "GET /dbproj/student_details/3 HTTP/1.1" 200 -
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+INFO:logger:token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsYXJhYWwiLCJyb2xlIjoic3R1ZGVudCJ9.K0hymcT6wiXJCixlBr0DHWmJo-b-fUl1j_wEX4B82Aw
+DEBUG:logger:JWT payload: {'username': 'claraal', 'role': 'student'}
+INFO:werkzeug:127.0.0.1 - - [25/May/2025 21:16:28] "DELETE /dbproj/withdraw_activity/projeto%20de%20pesquisa HTTP/1.1" 200 -
+INFO:logger:API stubs online: http://127.0.0.1:8080
+INFO:logger:API stubs online: http://127.0.0.1:8080

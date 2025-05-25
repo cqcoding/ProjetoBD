@@ -1,0 +1,62 @@
+-------------- Alunos
+
+{
+    "mail": "mariaalves@gmail.com",
+    "password": "maria1234",
+    "name": "Maria Alves",
+    "username": "mariaa",
+    "district": "lousã",
+    "balance": "200"
+}
+
+{
+    "mail": "clara@gmail.com",
+    "password": "clara@bd",
+    "name": "Clara Almeida",
+    "username": "claraal",
+    "district": "coimbra",
+    "balance": "160"
+}
+
+{
+    "mail": "ricardo.almeida@gmail.com",
+    "password": "ricardo@bd",
+    "name": "Ricardo Almeida",
+    "username": "ricardoal",
+    "district": "coimbra",
+    "balance": "160"
+}
+
+
+------------------------- Staff
+
+ {"mail": "staff2@uni.pt",
+  "password": "senha123",
+  "name": "Staff2",
+  "username": "nstaff"
+ }
+------------------------ Professores
+{
+  "mail": "instrutoraMarta@uni.pt",
+  "password": "senha",
+  "name": "marta",
+  "username": "Martainstrutora"
+}
+
+{
+  "mail": "instrutorJoao@uni.pt",
+  "password": "senha12",
+  "name": "joao",
+  "username": "JoaoInstrutor"
+}
+
+{
+  "mail": "instrutorCaio@uni.pt",
+  "password": "senha132",
+  "name": "caio",
+  "username": "CaioInstrutor"
+}
+
+--------------------------------
+
+
